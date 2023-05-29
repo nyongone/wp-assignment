@@ -1,0 +1,7 @@
+@import url("./global.css"); /* GLOBAL STYLES */
+@import url("./header.css"); /* HEADER STYLES */
+@import url("../static/font/pretendard.css"); /* FONT STYLES */
+/* PAGE STYLES */
+@import url("./main.css"); /* MAIN PAGE STYLES */
+@import url("./info.css"); /* INFORMATION STYLES */
+@import url("./place.css"); /* PLACE STYLES */

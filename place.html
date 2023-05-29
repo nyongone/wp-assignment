@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>여기, 저기, 순천</title>
+		<link rel="stylesheet" href="./styles/core.css" />
+		<script type="text/javascript" src="./scripts/header.js"></script>
+		<script type="text/javascript" src="./scripts/place.js"></script>
+	</head>
+	<body>
+		<header id="header-container">
+			<a href="/">
+				<h1 id="title-container">
+					<img
+						width="40"
+						height="100%"
+						style="display: inline-block"
+						src="../static/image/logo.png"
+					/>여기, 저기, 순천
+				</h1></a
+			>
+			<nav id="nav-container">
+				<button onClick="navButtonHandler('./')" class="nav-item">홈</button>
+				<button onClick="navButtonHandler('./info.html')" class="nav-item">
+					소개
+				</button>
+				<button onClick="navButtonHandler('./place.html')" class="nav-item">
+					명소
+				</button>
+			</nav>
+		</header>
+		<section id="place-container">
+			<div id="place-header">
+				<div id="place-header-content">
+					<h1 id="place-header-title">순천의 명소</h1>
+					<h2 id="place-header-subtitle">
+						여러 순천의 명소들을 발견하고 즐겨보세요.
+					</h2>
+				</div>
+				<img
+					class="place-header-image"
+					src="./static/image/suncheon_garden_2.JPG"
+				/>
+				<img
+					class="place-header-image"
+					src="./static/image/suncheon_garden_3.JPG"
+				/>
+				<img
+					class="place-header-image"
+					src="./static/image/suncheon_garden_4.JPG"
+				/>
+			</div>
+			<div id="place-list-container">
+				<ul id="place-list">
+					<li class="place-item">
+						<img
+							class="place-item-image"
+							src="./static/image/place/suncheon_garden.JPG"
+						/>
+						<div class="place-item-container">
+							<h3 class="place-item-title">순천만 국제정원박람회</h3>
+							<p class="place-item-text">
+								<span class="place-item-type">위치</span>
+								전라남도 순천시 국가정원1호길 47
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">영업시간</span>
+								오전 9:00 ~ 오후 9:00
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">개요</span>
+								<span class="place-item-outline">
+									순천만 국제정원 박람회는 순천의 아름다운 자연과 꽃의 향연을
+									선보이는 국제적인 이벤트로, 다양한 국가의 화원과 조경 디자인을
+									감상할 수 있는 특별한 축제입니다.
+								</span>
+							</p>
+						</div>
+					</li>
+					<li class="place-item">
+						<img
+							class="place-item-image"
+							src="./static/image/place/suncheon_bay.JPG"
+						/>
+						<div class="place-item-container">
+							<h3 class="place-item-title">순천만 습지</h3>
+							<p class="place-item-text">
+								<span class="place-item-type">위치</span>
+								전라남도 순천시 순천만길 513-25
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">영업시간</span>
+								오전 8:00 ~ 오후 7:00
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">개요</span>
+								<span class="place-item-outline">
+									순천만 습지는 대한민국 최대의 습지로, 다양한 조류와 해양
+									생물들이 서식하며 풍부한 생태계를 자랑하는 자연 보호지입니다.
+									순천만 습지는 아름다운 풍경과 생태 체험을 제공하여
+									방문객들에게 특별한 자연 경험을 선사합니다.
+								</span>
+							</p>
+						</div>
+					</li>
+					<li class="place-item">
+						<img
+							class="place-item-image"
+							src="./static/image/place/suncheon_nakan.JPG"
+						/>
+						<div class="place-item-container">
+							<h3 class="place-item-title">순천 낙안읍성</h3>
+							<p class="place-item-text">
+								<span class="place-item-type">위치</span>
+								전라남도 순천시 낙안면 동·서·남내리 299-1번지
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">영업시간</span>
+								1월, 11-12월 9:00 ~ 17:30 / 2~4월, 10월 9:00 ~ 18:00
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">개요</span>
+								<span class="place-item-outline">
+									순천 낙안읍성은 조선시대의 역사적인 유적으로, 성벽과
+									문화재들로 잘 알려져 있습니다. 방문객들은 낙안읍성에서
+									조선시대의 역사와 아름다운 전통 건축물을 감상하고 체험할 수
+									있습니다.
+								</span>
+							</p>
+						</div>
+					</li>
+					<li class="place-item">
+						<img
+							class="place-item-image"
+							src="./static/image/place/suncheon_drama.JPG"
+						/>
+						<div class="place-item-container">
+							<h3 class="place-item-title">순천 드라마촬영장</h3>
+							<p class="place-item-text">
+								<span class="place-item-type">위치</span>
+								전라남도 순천시 비례골길 24
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">영업시간</span>
+								오전 9:00 ~ 오후 6:00
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">개요</span>
+								<span class="place-item-outline">
+									순천 드라마 촬영장은 대한민국의 전라남도 순천시 조례동에
+									위치한 드라마 촬영 세트장입니다. 이곳은 주로 1950년대부터
+									1980년대까지의 순천읍내와 서울의 변두리 모습을 재연한 것으로,
+									많은 분들에게 추억의 장소로 여겨지고 있습니다.
+								</span>
+							</p>
+						</div>
+					</li>
+					<li class="place-item">
+						<img
+							class="place-item-image"
+							src="./static/image/place/suncheon_seonam_temple.JPG"
+						/>
+						<div class="place-item-container">
+							<h3 class="place-item-title">순천 선암사</h3>
+							<p class="place-item-text">
+								<span class="place-item-type">위치</span>
+								전라남도 순천시 승주읍 선암사길 450
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">영업시간</span>
+								오전 8:00 ~ 오후 6:00
+							</p>
+							<p class="place-item-text">
+								<span class="place-item-type">개요</span>
+								<span class="place-item-outline">
+									선암사는 전라남도 순천시의 조계산에 위치한 사찰입니다.
+									선암사는 한국불교 태고종의 총본산으로 알려져 있습니다. 또한,
+									2018년에는 '산사, 한국의 산지승원'이라는 명칭으로 유네스코
+									세계문화유산에 등재되었습니다.
+								</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</body>
+</html>

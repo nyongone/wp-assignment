@@ -1,0 +1,28 @@
+/*
+    GLOBAL STYLE SETTINGS
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #222;
+	font-family: "Pretendard";
+}
+
+a:link,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+button:hover {
+	cursor: pointer;
+}

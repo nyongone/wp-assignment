@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>여기, 저기, 순천</title>
+		<link rel="stylesheet" href="./styles/core.css" />
+		<script type="text/javascript" src="./scripts/main.js"></script>
+		<script type="text/javascript" src="./scripts/header.js"></script>
+	</head>
+	<body>
+		<header id="header-container">
+			<a href="/">
+				<h1 id="title-container">
+					<img
+						width="40"
+						height="100%"
+						style="display: inline-block"
+						src="../static/image/logo.png"
+					/>여기, 저기, 순천
+				</h1></a
+			>
+			<nav id="nav-container">
+				<button onClick="navButtonHandler('./')" class="nav-item">홈</button>
+				<button onClick="navButtonHandler('./info.html')" class="nav-item">
+					소개
+				</button>
+				<button onClick="navButtonHandler('./place.html')" class="nav-item">
+					명소
+				</button>
+			</nav>
+		</header>
+		<section id="slide-container">
+			<div id="intro">
+				<h2 id="subtitle">
+					<span style="font-weight: 300; font-size: 30px"
+						>순천은 도시가 아닌
+					</span>
+					<br />정원<span class="text1">입니다.</span>
+				</h2>
+				<h2 id="information">
+					연간 방문자 <span class="visit_total">5,000,000명</span> 이상<br />
+					주요 관광지 수 <span class="spot_total">30개</span> 이상<br />
+					<span class="text2">환영합니다, 이곳은 <b>순천</b>입니다.</span>
+				</h2>
+			</div>
+			<img class="slide-image" src="./static/image/suncheon_bay_1.JPG" />
+			<img class="slide-image hide" src="./static/image/suncheon_bay_2.JPG" />
+			<img class="slide-image hide" src="./static/image/suncheon_bay_3.JPG" />
+		</section>
+	</body>
+</html>
